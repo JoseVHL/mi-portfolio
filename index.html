@@ -1,0 +1,225 @@
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>José Vicente Herrero López | Portfolio</title>       
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="cabecera" id="inicio">
+    <div class="barra">
+        <a class="logo" href="#inicio">JVH</a>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-boton" aria-label="Abrir menú">
+            <span></span><span></span><span></span>
+        </label>
+        <nav id="menu" class="menu">
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="presentacion">
+        <img class="foto" src="jose.jpg" alt="Foto de José Vicente Herrero López">
+        <div class="presentacion-texto">
+            <p class="saludo">Hola, soy</p>
+            <h1>José Vicente Herrero López</h1>
+            <p class="profesion">Estudiante de Desarrollo de Aplicaciones Web (DAW) · Camarero profesional</p>
+            <p class="lema">«No hay nada mejor que la sonrisa de un cliente satisfecho»</p>            
+        </div>
+    </div>
+</header>
+
+<main>
+    <section id="sobre-mi" class="seccion">
+        <h2>Sobre mí</h2>
+        <div class="tarjeta">
+            <p>Soy José Vicente, profesional con más de 30 años de trayectoria en la hostelería, donde he pasado de
+                ayudante de camarero a responsable de equipo. Ese camino me ha enseñado a trabajar bajo presión, a organizar 
+                al personal y, sobre todo, a escuchar al cliente.</p>
+            <p>Actualmente estudio 2º del Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web en el
+                IES Camp de Morvedre, tras haber finalizado el Grado Medio de Sistemas Microinformáticos y Redes.
+                Me interesa el desarrollo web, desde la maquetación con HTML y CSS hasta la lógica con JavaScript.</p>
+            <p>Mi objetivo es reorientar mi carrera profesional hacia la informática y trabajar como desarrollador web, aportando
+                mi capacidad de organización, mi trato con las personas y las ganas de seguir aprendiendo cada día.</p>
+        </div>
+    </section>
+
+    <section id="proyectos" class="seccion seccion-alt">
+        <h2>Proyectos</h2>
+        <div class="rejilla">
+            <article class="tarjeta proyecto">
+                <h3>CV web accesible</h3>
+                <p>Mi CV convertido en página web con HTML, navegación por secciones y un apartado de
+                    preguntas frecuentes en el que cada respuesta se despliega al pulsar la pregunta, usando atributos
+                    ARIA para que sea accesible.</p>
+                <p class="tecnologias"><strong>Tecnologías:</strong> HTML5, CSS3, JavaScript</p>
+            </article>       
+
+            <article class="tarjeta proyecto">
+                <h3>Consumo de APIs con fetch</h3>
+                <p>Ejercicios de programación asíncrona en los que se piden datos a servicios externos, como por ejemplo PokéAPI y
+                    JSONPlaceholder, y se muestran en la página tratando los errores y los tiempos de espera.</p>
+                <p class="tecnologias"><strong>Tecnologías:</strong> JavaScript, fetch, JSON</p>
+            </article>
+
+            <article class="tarjeta proyecto">
+                <h3>Planificación de un sprint</h3>
+                <p>Organización de mi primer sprint en solitario con metodología Scrum: historias de usuario, tablero en
+                    Trello y registro de las ceremonias (planificación, seguimiento).</p>
+                <p class="tecnologias"><strong>Tecnologías:</strong> Scrum, Trello, Git y GitHub</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="habilidades" class="seccion">
+        <h2>Habilidades</h2>
+        <div class="rejilla habilidades">
+            <div class="tarjeta">
+                <h3>Lenguajes</h3>
+                <ul class="etiquetas">
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="tarjeta">
+                <h3>Herramientas</h3>
+                <ul class="etiquetas">
+                    <li>Git y GitHub</li>
+                    <li>Visual Studio Code</li>
+                    <li>Trello</li>
+                    <li>Ofimática</li>
+                </ul>
+            </div>
+            <div class="tarjeta">
+                <h3>Tecnologías</h3>
+                <ul class="etiquetas">
+                    <li>Redes</li>
+                    <li>Sistemas microinformáticos</li>
+                    <li>Spring Boot (iniciación)</li>
+                </ul>
+            </div>
+            <div class="tarjeta">
+                <h3>Otras habilidades</h3>
+                <ul class="etiquetas">
+                    <li>Trabajo en equipo</li>
+                    <li>Atención al cliente</li>
+                    <li>Organización de equipos</li>
+                    <li>Adaptabilidad</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacion" class="seccion seccion-alt">
+        <h2>Formación</h2>
+        <div class="linea-tiempo">
+            <article class="tarjeta">
+                <h3>FP Grado Superior · Desarrollo de Aplicaciones Web (DAW)</h3>
+                <p class="lugar">IES Camp de Morvedre · Puerto de Sagunto (Valencia)</p>
+                <p>Matriculado actualmente en 2º DAW</p>
+            </article>
+            <article class="tarjeta">
+                <h3>FP Grado Medio · Sistemas Microinformáticos y Redes (SMR)</h3>
+                <p class="lugar">IES Camp de Morvedre · Puerto de Sagunto (Valencia)</p>
+                <p>Finalizado en 2023</p>
+            </article>
+            <article class="tarjeta">
+                <h3>Bachillerato (rama de Ciencias)</h3>
+                <p class="lugar">Instituto Ramón Muntaner · Xirivella (Valencia)</p>
+                <p>Finalizado en 1990</p>
+            </article>
+            <article class="tarjeta">
+                <h3>Otros cursos</h3>
+                <ul class="lista">
+                    <li>Ofimática (nivel usuario)</li>
+                    <li>Atención al cliente y servicio en mesas</li>
+                    <li>Cocina</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section id="experiencia" class="seccion">
+        <h2>Experiencia laboral</h2>
+        <div class="linea-tiempo">
+            <article class="tarjeta">
+                <h3>Camarero · Área de Servicio «El Pont»</h3>
+                <p class="lugar">Chiva (Valencia) · Octubre 2015 – actualidad</p>
+                <p>Responsable de la organización de los camareros según el turno de trabajo.</p>
+            </article>
+            <article class="tarjeta">
+                <h3>Camarero · Arrocería Noray</h3>
+                <p class="lugar">El Puig (Valencia) · Abril 2015 – Octubre 2015</p>
+            </article>
+            <article class="tarjeta">
+                <h3>Gerente · Cafetería-Restaurante L'Alqueria</h3>
+                <p class="lugar">Xirivella (Valencia) · Septiembre 2005 – Marzo 2015</p>
+            </article>
+            <article class="tarjeta">
+                <h3>Camarero · Restaurante «La Alameda»</h3>
+                <p class="lugar">Valencia · Abril 2000 – Agosto 2005</p>
+            </article>
+            <article class="tarjeta">
+                <h3>Ayudante de cocina · Hotel Cónsul del Mar</h3>
+                <p class="lugar">Valencia · Marzo 1999 – Marzo 2000</p>
+            </article>
+            <article class="tarjeta">
+                <h3>Ayudante de camarero · Restaurante «La Alameda»</h3>
+                <p class="lugar">Valencia · Junio 1990 – Febrero 1999</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="faq" class="seccion seccion-alt">
+        <h2>Preguntas frecuentes</h2>
+        <div class="faq">
+            <details class="faq-item">
+                <summary>¿En qué proyectos has trabajado?</summary>
+                <p>Mis proyectos se centran en los estudios de DAW: ejercicios y pequeñas aplicaciones web con HTML,
+                    CSS y JavaScript.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>¿Qué tecnologías dominas o estás aprendiendo?</summary>
+                <p>Estoy adquiriendo conocimientos de HTML5 y CSS para la estructura y la presentación, junto con
+                    JavaScript para la interactividad.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>¿Cuál es tu disponibilidad para trabajar?</summary>
+                <p>Tengo disponibilidad inmediata, independientemente del turno (mañana, tarde o noche), adaptándome
+                    a las necesidades del trabajo.</p>
+            </details>
+        </div>
+    </section>
+</main>
+
+<footer id="contacto" class="pie">
+    <h2>Contacto</h2>
+    <address>
+        <ul class="contacto">
+            <li><strong>Email:</strong> <a href="mailto:josevhl1973@hotmail.com">josevhl1973@hotmail.com</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/JoseVHL" target="_blank">github.com/JoseVHL</a></li>
+            <li><strong>Ubicación:</strong> El Puig de Santa María, Valencia</li>
+        </ul>
+    </address>
+    <p><small>&copy; 2026 José Vicente Herrero López.</small></p>
+</footer>
+
+</body>
+</html>
