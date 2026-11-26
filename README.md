@@ -21,3 +21,11 @@ https://github.com/JoseVHL/mi-portfolio/
 * **Formación:** Estudios actuales en 2º de DAW y titulación previa en Sistemas Microinformáticos y Redes (SMR).
 * **Preguntas Frecuentes (FAQ):** Respuestas interactivas sobre mis conocimientos y disponibilidad laboral.
 * **Contacto:** josevhl1973@hotmail.com
+
+## Estructura
+
+mi-portfolio/
+├── index.html
+├── styles.css
+├── jose.jpg
+└── README.md
